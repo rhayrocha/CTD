@@ -1,0 +1,16 @@
+.main-title{
+    color: burlywood;
+}
+
+.main-subtitle{
+    color: chartreuse;
+}
+
+.post{
+ background-color: brown;   
+}
+
+.post h1{
+color: brown;
+font-size: 14px;
+}
