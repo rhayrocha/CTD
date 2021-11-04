@@ -1,0 +1,26 @@
+div {
+    background-color: aquamarine;
+    height: 400px;
+    width: 600px;
+    padding: 24px;
+    margin-top: 50px;
+    border: 10px salmon solid;
+}
+
+h1 {
+    margin: 0;
+    padding-left: 50px;
+}
+
+p {
+    background-color: brown;
+    margin-top: 100px;
+}
+
+button {
+
+    height: 100px;
+    width: 50%;
+    margin 24px;
+    border-radius: 20px;
+}
