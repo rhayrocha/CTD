@@ -59,4 +59,4 @@ function microondas(prato, tempo) {
         console.log("Prato pronto, bom apetite!!!")
     }
 }
-microondas( 4, 15)
+microondas( 5, 15)
