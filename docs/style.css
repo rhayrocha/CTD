@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+html * {
+    color:antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    background-color: #F0C260;
+}
+
+#titulo {
+    color:white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 32px;
+    font-style:oblique;
+    font-weight: 200;
+    background-color:#FCAB01;
+    padding: 10px;
+}
+
+#resumo {
+    padding: 20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+ul {
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    font-style: oblique;
+    margin: 20px 0px;
+}
+
+#corpo {
+    background-image: url("https://images.wallpapersden.com/image/download/sunset-in-rio-de-janeiro-5k_bGdlZmeUmZqaraWkpJRnamtlrWZpaWU.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#principal {
+    text-align: center;
+}
+
+.subtitulo {
+        color:antiquewhite;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        font-size: 32px;
+        font-style: oblique;
+        font-weight: 200;
+        padding: 10px;
+}
+
+#rodape {
+    text-align: center;
+    padding: 20px;
+}
+
+.icones {
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+}
