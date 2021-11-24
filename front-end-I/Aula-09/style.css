@@ -1,0 +1,22 @@
+body
+{
+    background-image: url("https://topsuporte.com.br/wp-content/uploads/2016/09/fundocontador.jpg");
+    width: 1920;
+    height: 1080;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}

@@ -1,12 +1,23 @@
 .banner {
-    background-image: url("https://www.digitalhouse.com/br/assets/metas/201203095746-2p33kwnxjki8ugt9e.jpg");
-    height: 1280px;
-    width: 720px;
+    background-image: url("https://www.sobretiza.com.ar/wp-content/uploads/2020/12/maxresdefault.jpg");
+    background-repeat:no-repeat;
+    height: 7200px;
+    width: 1280px;
 }
+
+.elementos {
+    text-align: center;
+    padding: 100px;
+}
+h2 {
+    font-weight: 500;
+}
+
 
 button {
 
 width: 300px;
 border: 15px solid green;
 border-radius: 20px;
+text-align: center;
 }

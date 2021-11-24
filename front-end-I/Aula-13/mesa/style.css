@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+} 
+ 
+ @keyframes movimento {
+    0%{
+        transform: translate(0,0) ; opacity: 0%;
+
+    }
+
+    100%{
+        transform: translate(150px,0) ; opacity: 100%;
+        
+    }
+}
+
+@keyframes girar{
+    100%{
+  transform: rotate(90deg)
+}}
+
+.foguete{
+    font-size: 75px;
+    animation: girar;
+    animation-duration: 5s;
+}
+.bola{
+    width: 266px;
+    height: 266px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    animation-name: movimento;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.botao{
+    color: antiquewhite;
+    border: none;
+    padding: 12px 24px;
+    background-color: #32cc72;
+    border-radius: 12px;
+    transition: .2s;
+}
+
+.botao:hover {
+    background-color: #94eeba;
+}
