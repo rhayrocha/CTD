@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    color: black;
+    padding-top: 20px;
+}
+
+
+p {
+    color: black;
+    padding-top: -20px;
+    
+}
+label{
+    background-color: rgb(250, 246, 246,0.5);
+    border: px solid white;
+    padding: 2px;
+}
+
+button {
+    color: antiquewhite;
+    border: none;
+    padding: 12px 24px;
+    background-color: #33abe2;
+    border-radius: 12px;
+    transition: 0.5s;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: rgb(16, 245, 233);
+    font-size: 30px;
+    color: black;
+}
+
+fieldset {
+    
+    background-color: rgba(241, 243, 245, 0.5);
+    border-radius: 10px;
+    border: 1px solid white;
+    margin-top: 10px;
+    width: 800px;
+    padding: 5px;
+
+}
+fieldset:hover {
+    
+    background-color: rgba(241, 243, 245);
+    border-radius: 10px;
+    border: 3px solid rgb(216, 12, 12);
+    margin-top: 10px;
+    width: 800px;
+    
+}
+fieldset p{
+    color: black;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+        'main-header main-header'
+        'main-aside main-contents'
+        'main-footer main-footer'
+    ;
+}
+
+header {
+    background-color: rgb(22, 20, 20);
+    grid-area: main-header;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    font-size: 40px;
+    color: yellow;
+
+}
+
+@keyframes floating {
+
+    0% {
+        transform: translate(-100%, 0)
+    }
+
+    100% {
+        transform: translate(750%, 0)
+    }
+}
+
+header img {
+    height: 100px;
+    animation-name: floating;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+
+}
+
+div img {
+    height: 50px;
+    margin-top: 300px;
+}
+
+li div {
+    color: white;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+}
+
+.subM {
+    margin-left: 10px;
+    color: rgb(183, 205, 214);
+    padding-top: -20;
+}
+
+
+aside {
+    background-color: #33abe2;
+    grid-area: main-aside;
+    margin-top: 80px;
+    padding-top: 20px;
+    text-decoration: none;
+
+}
+
+
+aside li:hover {
+    transition: .5s;
+    font-size: 25px;
+    color: black;
+
+}
+
+main {
+    background-image: url(https://www.melhoresdestinos.com.br/wp-content/uploads/2019/08/rio-de-janeiro-capa2019-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*background-color: #F2EDEB;*/
+    grid-area: main-contents;
+    height: 800px;
+
+    margin-top: 80px;
+    padding: 24px;
+}
+
+footer {
+    background-color: black;
+    grid-area: main-footer;
+    height: 100px;
+    text-align: center;
+    color: rgba(241, 239, 239, 0.431);
+
+}
+
+h1 {
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    font-family: serif;
+    background-color: rgb(241, 235, 235, 0.5);
+}
+
+h2 {
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(241, 235, 235, 0.5);
+}
+
+
+ul {
+
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    justify-content: center;
+    top: 0;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
