@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header {
+    color: rgba(255, 255, 255, 0.774);
+    background-color:whitesmoke;
+    position: sticky;
+    top: 0;
+}
+
+.banner img{
+    padding-top: 7vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    height: 7vh;
+    display: flex;
+    list-style:none;
+    gap: 40px;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.banner {
+    height: 100vh;
+}
+
+.texto {
+    height: 100vh;
+    display: flex;
+    padding: 10vh;
+    gap: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+
+
